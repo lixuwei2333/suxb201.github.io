@@ -1,6 +1,6 @@
 var arr =new Array();
 
-$(document).ready(function(){  audio.play(); newGame(); });
+$(document).ready(function(){  newGame(); });
 
 function newGame()
 {
