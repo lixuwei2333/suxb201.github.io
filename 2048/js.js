@@ -1,6 +1,4 @@
 var arr =new Array();
-var audio = new Audio("dd.mp3");
-
 
 $(document).ready(function(){  audio.play(); newGame(); });
 
