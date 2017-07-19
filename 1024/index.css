@@ -1,0 +1,40 @@
+
+header
+{
+  display: block;
+  width:500px;
+  text-align: center;
+  text-decoration:none;
+  margin: 0 auto 50px auto;
+}
+#newGameButton
+{
+  text-decoration: none;
+  padding:10px;
+  background: #8f7a66;
+  color: white;
+  border-radius: 7px;
+}
+#grid-container
+{
+  width: 460px;
+  height: 460px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #8f7a66;
+  border-radius: 5px;
+  position: relative;;
+}
+#commentS
+{
+  width: 800px;
+  margin: 20px auto 20px auto;
+}
+.grid-cell
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background: black;
+  position: absolute;
+}
