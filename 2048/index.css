@@ -15,6 +15,11 @@ header
   color: white;
   border-radius: 7px;
 }
+#newGameButton:hover
+{
+  background: #a2000c;
+}
+
 #grid-container
 {
   width: 460px;
