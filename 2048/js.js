@@ -30,13 +30,17 @@ function updateView()
 {
   for(var i=0;i<4;i++)
     for(var j=0;j<4;j++)
+    {
+      if(arr[i][j]>10) arr[i][j]=10;
       $("#t"+i+j).css("background",getBackground(arr[i][j]));
+    }
+
 
 }
 function getBackground(x)
 {
   if(x==0){ return "#ccc0b3";}
-
+  if(x==10) return "red";
   return "url("+x+".gif)";
 }
 function generateOneNumber()
